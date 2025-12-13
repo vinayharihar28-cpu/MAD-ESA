@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514558736408",
+    "project_id": "mad-project-d0e88",
+    "storage_bucket": "mad-project-d0e88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514558736408:android:99679feee52402ee4deb6d",
+        "android_client_info": {
+          "package_name": "rathent.com.rathent_01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgigZwF53UzrurbXXwtD_fyuIZH8tXtLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
