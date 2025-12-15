@@ -9,13 +9,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
 }
 
 class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -27,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('PES UNIVERSITY'),
+        title: const Text('PES University'),
         backgroundColor: Colors.greenAccent,
         leading: IconButton(
           icon: const Icon(Icons.menu),
@@ -35,39 +37,35 @@ class _HomePageState extends State<HomePage> {
           onPressed: () {},
         ),
       ),
-
       body: Center(
         child: Card(
+          elevation: 4,
           child: Padding(
             padding: const EdgeInsets.all(15.0),
             child: SizedBox(
               width: 430,
-              height: 700,
               child: Column(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    'WELCOME TO COMPUTER APPLICATIONS DEPARTMENT',
+                    'Welcome to Computer Applications Department',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: Colors.greenAccent[400],
-                      fontSize: 30,
+                      color: Colors.greenAccent,
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
 
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 20),
 
                   Row(
                     children: <Widget>[
-                      const SizedBox(width: 10),
-
                       const Text(
-                        'CLICK BCA COURSE',
-                        style: TextStyle(
-                          fontSize: 17.0,
-                        ),
+                        'Click BCA Course',
+                        style: TextStyle(fontSize: 17.0),
                       ),
-
                       const SizedBox(width: 10),
-
                       Checkbox(
                         tristate: true,
                         value: value,
