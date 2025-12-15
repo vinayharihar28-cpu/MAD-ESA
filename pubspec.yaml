@@ -13,13 +13,15 @@ dependencies:
       sdk: flutter
 
     camera: ^0.10.5
+
     cupertino_icons: ^1.0.8
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    camera: ^0.10.5
+
+  camera: ^0.10.5
   flutter_lints: ^3.0.0
 
 flutter:
