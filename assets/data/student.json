@@ -1,0 +1,10 @@
+{
+  "course": "Flutter Development",
+  "instructor": "Vinay",
+  "topics":[
+    "Widgets",
+    "State management",
+    "Json parsing",
+    "Navigation"
+  ]
+}
